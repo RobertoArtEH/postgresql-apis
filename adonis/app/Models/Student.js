@@ -4,6 +4,13 @@
 const Model = use('Model')
 
 class Student extends Model {
+  static get createdAtColumn () {
+    return null
+  }
+
+  static get updatedAtColumn () {
+    return null
+  }
 }
 
 module.exports = Student
